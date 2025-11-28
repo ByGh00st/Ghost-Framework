@@ -303,14 +303,24 @@ Feel free to contribute by:
 
 ## 📄 License / Lisans
 
-This project is for educational purposes. Use responsibly and ethically.
+<p align="center">
+  <h2>⚠️ GÜVENLİK NOTU & YASAL UYARI / SECURITY NOTE & DISCLAIMER ⚠️</h2>
+</p>
 
-### 🔒 GÜVENLİK NOTU
-**Bu projenin kaynak kodları, güvenlik ve gizlilik ilkeleri gereği bu repoda paylaşılmamaktadır.**
+> ### 🇹🇷 Türkçe
+> **Güvenlik Notu:** Bu projenin kaynak kodları, güvenlik ve gizlilik ilkeleri gereği bu repoda **paylaşılmamaktadır**. Projelerim hakkında daha fazla bilgi almak ve benimle iletişime geçmek için resmi web sitemi ziyaret edebilirsiniz: **[byghost.tr](https://byghost.tr)**
+>
+> ---
+>
+> **Yasal Uyarı:** Bu framework, yalnızca **eğitim ve yetkili güvenlik testleri** amacıyla tasarlanmıştır. Bu araçların kullanımından doğacak tüm yasal sorumluluk kullanıcıya aittir. Yalnızca sahibi olduğunuz veya test etmek için **açık izniniz** olan sistemlerde kullanın. Yasa dışı faaliyetler kesinlikle desteklenmemektedir.
 
-Projelerim hakkında daha fazla bilgi ve iletişim için resmi web sitemi ziyaret edebilirsiniz:
-## **[byghost.tr](https://byghost.tr)**.
-
+> ### 🇺🇸 English
+> **Security Note:** For security and privacy reasons, the source code for this project **is not included** in this repository. For more information about my projects and to get in touch, please visit my official website: **[byghost.tr](https://byghost.tr)**
+>
+> ---
+>
+> **Disclaimer:** This framework is designed for **educational and authorized security testing purposes only**. The user is solely responsible for all legal compliance when using these tools. Use it only on systems you own or have **explicit permission** to test. Illegal activities are strictly not supported.
+---
 ---
 
 **🌐 TUI framework - Advanced Cybersecurity Framework**
