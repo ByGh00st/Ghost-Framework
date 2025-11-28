@@ -93,6 +93,35 @@ def print_status(message: str, status: str = "info"):
     else:
         print(f"[{status.upper()}] {message}")
 
+def launch_command_in_terminal(command: str, system: str = platform.system()):
+    """Launch a command in a new terminal window based on the operating system."""
+    import shutil
+    
+    if system == "Windows":
+        subprocess.Popen(["start", "cmd", "/k", command], shell=True)
+
+    elif system == "Linux":
+        # GNOME
+        if shutil.which("gnome-terminal"):
+            subprocess.Popen(["gnome-terminal", "--", "bash", "-c", command])
+        # XFCE
+        elif shutil.which("xfce4-terminal"):
+            subprocess.Popen(["xfce4-terminal", "--hold", "-e", command])
+        # KDE
+        elif shutil.which("konsole"):
+            subprocess.Popen(["konsole", "-e", command])
+        # Her şeye rağmen terminal bulunmazsa:
+        else:
+            print_status("Uygun terminal emülatörü bulunamadı!", "error")
+            return
+
+    elif system == "Darwin":  # macOS
+        subprocess.Popen(["osascript", "-e",
+                          f'tell app "Terminal" to do script "{command}"'])
+
+    else:
+        print_status("Desteklenmeyen işletim sistemi!", "error")
+
 def get_user_input(prompt: str, options: List[str] = None) -> str:
     """Get user input with optional choices"""
     print_status(prompt, "info")
