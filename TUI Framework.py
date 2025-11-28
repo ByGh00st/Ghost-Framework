@@ -180,7 +180,6 @@ MODULES = [
     {"key": "HONEY", "desc": "Chimera Honeypot v3.2 - Advanced Deception", "status": "READY", "executable": "modules/honey/honeypot.py"},
     {"key": "SCAN", "desc": "Network Scanner & Port Analysis", "status": "READY", "executable": "modules/scan/scan_tui.py"},
     {"key": "CRYPT", "desc": "Cryptography Tools & Hash Generator", "status": "READY", "executable": "modules/crypt/crypt_tui.py"},
-    {"key": "C2", "desc": "Command & Control Panel - Advanced Botnet Management", "status": "LOCKED", "executable": "modules/c2/c2_panel.py"},
     {"key": "LOG", "desc": "Log Analyzer & Event Monitor", "status": "READY", "executable": "modules/log/log_tui.py"},
     {"key": "EXPLOIT", "desc": "MSFvenom Payload Generator", "status": "READY", "executable": "modules/exploit/exploit_tui.py"},
     {"key": "WIFI", "desc": "WiFi Attack Suite - Auto Deauth & Scanning", "status": "READY", "executable": "modules/wifi/wifi_tui.py"}   
