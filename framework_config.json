@@ -1,0 +1,17 @@
+{
+  "os_type": "Windows",
+  "setup_complete": true,
+  "modules": {
+    "honey": true,
+    "scan": true,
+    "crypt": true,
+    "log": true,
+    "exploit": true,
+    "wifi": true
+  },
+  "os_selection": true,
+  "module_check": true,
+  "dependencies": true,
+  "permissions": true,
+  "test_run": true
+}
