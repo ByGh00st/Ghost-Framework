@@ -1,0 +1,50 @@
+# HavalıOlsunDiye - Cybersecurity Framework Requirements
+# =====================================================
+# Python packages that need to be installed via pip
+
+# Core TUI Framework Dependencies
+# ===============================
+# Rich: Modern terminal UI framework with gradients, panels, tables
+# https://rich.readthedocs.io/
+rich>=13.0.0
+
+# readchar: Low-level keyboard input for TUI navigation
+# https://pypi.org/project/readchar/
+readchar>=4.0.0
+
+# Cryptography Module Dependencies
+# ================================
+# cryptography: Advanced cryptographic recipes and primitives
+# https://cryptography.io/
+cryptography>=41.0.0
+
+# Optional External Dependencies
+# ==============================
+# These are not Python packages but system tools:
+
+# Wireshark/tshark: Network packet analysis
+# Windows: Download from wireshark.org
+# Linux: sudo apt install wireshark tshark
+# macOS: brew install wireshark
+
+# Nmap: Network scanning and port detection
+# Windows: Download from nmap.org
+# Linux: sudo apt install nmap
+# macOS: brew install nmap
+
+# Metasploit Framework (MSFvenom): Payload generation
+# Windows: Download from rapid7.com
+# Linux: curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && chmod 755 msfinstall && ./msfinstall
+# macOS: brew install metasploit
+
+# Aircrack-ng: WiFi attack suite (Linux only)
+# Linux: sudo apt install aircrack-ng
+# Note: Not available on Windows/macOS via package managers
+
+# System Requirements
+# ===================
+# Python 3.7+ required
+# ANSI escape code compatible terminal
+# Administrator/root privileges for network operations
+# Cross-platform compatibility (Windows, Linux, macOS)
+# WiFi module requires Linux with Aircrack-ng suite
