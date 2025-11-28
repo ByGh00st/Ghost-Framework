@@ -1,4 +1,4 @@
-<img width="1200" height="475" alt="NetGraph Analyzer System Banner" src="https://i.hizliresim.com/1x003o0.png" />
+<img width="1200" height="475" alt="NetGraph Analyzer System Banner" src="https://i.hizliresim.com/q3l40dn.png" />
 # 🌐 TUI framework - Cybersecurity Framework
 # 🌐 TUI framework - Siber Güvenlik Framework'ü
 
