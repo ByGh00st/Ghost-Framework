@@ -167,13 +167,6 @@ ___________              .__         .__  __
   \        /|  |/ __ \|  |/ __ \|  |__ 
    \__/\  / |__(____  /__(____  /____/ 
         \/          \/        \/      """,
-     "C2": r""" 
-  _________     _________ 
- /   _____/____ \_   ___ \ 
- \_____  \\____ \/    \  \/ 
- /        \  |_> >     \____ 
-/_______  /   __/ \______  /
-        \/|__|           \/ """,
 }
 
 MODULES = [
@@ -312,23 +305,7 @@ def center_stage(active_key: str) -> RenderableType:
         )
         return Panel(Align.center(t, vertical="middle"), title=gradient_text("WIFI ATTACK SUITE", ["#ff00f7", "#00eaff"]), border_style="neon.magenta", box=HEAVY, expand=True)
     
-    elif active_key == "C2":
-        t = Text.assemble(
-            ("Command & Control Panel - Advanced Botnet Management", "neon.red"), ("\n",),
-            ("• Botnet infrastructure management", "hint"), ("\n",),
-            ("• Remote command execution", "hint"), ("\n",),
-            ("• Payload distribution system", "hint"), ("\n",),
-            ("• Advanced evasion techniques", "hint"), ("\n",),
-            ("• Multi-platform agent support", "hint"), ("\n",),
-            ("\n",), ("⚠️  This module is currently LOCKED", "warn"), ("\n",),
-            ("🔒 Advanced C2 capabilities not yet implemented", "hint")
-        )
-        return Panel(Align.center(t, vertical="middle"), title=gradient_text("C2 COMMAND CENTER", ["#ff4d4d", "#00eaff"]), border_style="neon.red", box=HEAVY, expand=True)
-    
-    # Default
-    t = Text.assemble(("Config: ", "hint"), ("/etc/ghost/core.toml\n", "accent"), ("Services: ", "hint"), ("daemon(mock)=active\n", "ok"), ("Web: ", "hint"), ("byghost.tr.", "warn"))
-    return Panel(Align.center(t, vertical="middle"), title=gradient_text("CORE KERNEL", ["#00eaff", "#35ff69"]), expand=True)
-
+   
 # ============================
 # MODULE LAUNCHER
 # ============================
