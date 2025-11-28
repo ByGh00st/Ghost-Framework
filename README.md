@@ -305,7 +305,11 @@ Feel free to contribute by:
 
 This project is for educational purposes. Use responsibly and ethically.
 
-Bu proje eğitim amaçlıdır. Sorumlu ve etik bir şekilde kullanın.
+### 🔒 GÜVENLİK NOTU
+**Bu projenin kaynak kodları, güvenlik ve gizlilik ilkeleri gereği bu repoda paylaşılmamaktadır.**
+
+Projelerim hakkında daha fazla bilgi ve iletişim için resmi web sitemi ziyaret edebilirsiniz:
+## **[byghost.tr](https://byghost.tr)**.
 
 ---
 
