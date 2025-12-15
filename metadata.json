@@ -1,0 +1,23 @@
+{
+  "developer": "ByGhost",
+  "web": "https://byghost.tr",
+  "project": "Ghost-Framework",
+  "name": "Ghost Framework: TUI Cyber Operations",
+  "description": "Metasploit benzeri, modüler, TUI (Metin Tabanlı Arayüz) tabanlı gelişmiş siber güvenlik operasyon platformu. Ağ izleme, exploit üretimi ve honeypot yetenekleri içerir.",
+  "keywords": [
+    "cybersecurity",
+    "offensive security",
+    "TUI",
+    "framework",
+    "penetration testing",
+    "exploit",
+    "honeypot",
+    "network monitoring",
+    "Metasploit-like",
+    "Ghost",
+    "ByGhost"
+  ],
+  "version": "1.0",
+  "license": "Educational Use Only",
+  "sourceCode": "Private/Not Disclosed"
+}
